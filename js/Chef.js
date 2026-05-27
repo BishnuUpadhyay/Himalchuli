@@ -1,32 +1,32 @@
-fetch("chef.json")
-  .then(response => response.json())
-  .then(data => {
+// fetch("chefs.json")
+//   .then(response => response.json())
+//   .then(data => {
 
-    const container = document.getElementById("chefContainer");
+//     const container = document.getElementById("chefContainer");
 
-    data.forEach(chef => {
+//     data.forEach(chef => {
 
-      container.innerHTML += `
+//       container.innerHTML += `
 
-        <div class="chef-card">
+//         <div class="chef-card">
 
-          <img src="./images/${chef.image}" alt="${chef.name}">
+//           <img src="./images/${chef.image}" alt="${chef.name}">
 
-          <div class="chef-info">
+//           <div class="chef-info">
 
-            <h3>${chef.name}</h3>
+//             <h3>${chef.name}</h3>
 
-            <p>${chef.role}</p>
+//             <p>${chef.role}</p>
 
-          </div>
+//           </div>
 
-        </div>
+//         </div>
 
-      `;
+//       `;
 
-    });
+//     });
 
-  })
-  .catch(error => {
-    console.log("Error loading chefs:", error);
-  });
+//   })
+//   .catch(error => {
+//     console.log("Error loading chefs:", error);
+//   });
