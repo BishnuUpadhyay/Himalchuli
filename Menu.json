@@ -15,6 +15,13 @@
         "price": 6.99,
         "description": "Crispy fried pastry filled with spiced potatoes.",
         "image": "samosa.jpg"
+      },
+       {
+        "id": 1002,
+        "name": "Samosa",
+        "price": 6.99,
+        "description": "Crispy fried pastry filled with spiced potatoes.",
+        "image": "samosa.jpg"
       }
     ]
   },

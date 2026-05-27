@@ -1,4 +1,4 @@
-fetch("menu.json")
+fetch("Menu.json")
   .then(response => response.json())
   .then(data => {
 
